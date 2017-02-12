@@ -21,7 +21,7 @@ import java.util.List;
  */
 class CustomerController {
  
-	private static Logger logger = LoggerFactory.getLogger(CustomerController.class);
+    private static Logger logger = LoggerFactory.getLogger(CustomerController.class);
     private CustomerService service;
  
     @Autowired
